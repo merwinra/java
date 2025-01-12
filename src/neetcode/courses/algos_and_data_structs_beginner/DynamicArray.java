@@ -19,7 +19,7 @@ public class DynamicArray {
     }
 
     public void pushAtIndex(int num, int index) {
-        if (index == length) {
+        if (index == length - 1) {
             this.push(num);
         }
         if (index >= 0 && index < length) {
@@ -30,6 +30,7 @@ public class DynamicArray {
                 array[i + 1] = array[i];
             }
             array[index] = num;
+            length++;
         }
     }
 
