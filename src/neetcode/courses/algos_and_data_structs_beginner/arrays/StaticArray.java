@@ -1,4 +1,4 @@
-package neetcode.courses.algos_and_data_structs_beginner;
+package neetcode.courses.algos_and_data_structs_beginner.arrays;
 
 import java.util.Arrays;
 
