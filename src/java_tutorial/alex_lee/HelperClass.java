@@ -25,7 +25,7 @@ public class HelperClass {
      * @param number
      */
     public void ifElseMethod(Integer number) {
-        if(number < 1) {
+        if(number < 5) {
             System.out.println("The number is lesser than 5");
         } else if(number > 5) {
             System.out.println("This number is greater than 5");
@@ -39,7 +39,7 @@ public class HelperClass {
      * @param limit
      */
     public void forLoopMethod(Integer limit) {
-        for(int i = 0;i < limit; i++) {
+        for(int i = 0; i < limit; i++) {
             System.out.println("Repeating string in a for loop");
         }
     }
